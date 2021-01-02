@@ -31,7 +31,7 @@ import android.os.Build
 import android.util.AttributeSet
 import android.widget.FrameLayout
 
-internal class CornerRadiusFrameLayout : FrameLayout {
+class CornerRadiusFrameLayout : FrameLayout {
 
     // Variables
     private var noCornerRadius = true
@@ -82,7 +82,7 @@ internal class CornerRadiusFrameLayout : FrameLayout {
 
     //region PUBLIC METHODS
 
-    internal fun setCornerRadius(radius: Float) {
+    fun setCornerRadius(radius: Float) {
         // Top left corner
         outerRadii[0] = radius
         outerRadii[1] = radius

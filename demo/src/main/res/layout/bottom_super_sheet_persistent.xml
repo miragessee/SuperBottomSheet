@@ -8,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal|top"
-    android:background="@android:color/holo_blue_dark"
+    android:background="#ffffff"
     app:behavior_hideable="true"
     app:behavior_peekHeight="16dp"
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">

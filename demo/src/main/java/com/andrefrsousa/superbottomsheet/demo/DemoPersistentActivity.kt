@@ -1,14 +1,12 @@
 package com.andrefrsousa.superbottomsheet.demo
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.appcompat.app.AppCompatActivity
 import com.andrefrsousa.superbottomsheet.CornerRadiusFrameLayout
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import kotlinx.android.synthetic.main.activity_demo_persistent.*
-import kotlinx.android.synthetic.main.bottom_super_sheet_persistent.*
 
 class DemoPersistentActivity : AppCompatActivity() {
 
